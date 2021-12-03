@@ -1,4 +1,10 @@
 {
+  "engines": {
+    "node": ">=0.10.3 <16"
+  }
+}
+
+{
   "name": "music-bot",
   "main": "main.js",
   "author": "ZerioDev",
