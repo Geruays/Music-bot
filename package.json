@@ -1,9 +1,6 @@
 {
   "name": "music-bot",
   "main": "main.js",
-  "engines": {
-  "node": ">=0.10.3 <16"
-  }
   "author": "ZerioDev",
   "version": "6.0.0",
   "repository": "https://github.com/ZerioDev/Music-bot.git",
@@ -12,6 +9,10 @@
     "start": "node main.js"
   },
   "dependencies": {
+    
+    "engines": {
+      "node": ">=0.10.3 <16"
+       }
     "discord-player": "^5.1.0",
     "discord.js": "^13.1.0",
     "ffmpeg-static": "^4.4.0",
